@@ -25,5 +25,14 @@ for cntTest = uint32(1:1:noRandTest)
     y3 = sin(x-0.5);
     
     figure
-    plot(x,y1,'g',x,y2,'b--o',x,y3,'c*')
+    plot(x,y1,'g',x,y2,'b--o',x,y3,'c*');
+    
+    close;
+end
+
+%% Figure function
+for cntTest = uint32(1:1:noRandTest)
+    figure();
+    
+    close;
 end

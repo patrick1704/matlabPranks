@@ -95,7 +95,7 @@ randThreshold = 0.25;
 
 % toggle for fancy plots
 toggleFancy = 1;    % penis
-toggleFancy = 2;    % heart
+% % toggleFancy = 2;    % heart
 
 % x plot vector
 if toggleFancy == 1
