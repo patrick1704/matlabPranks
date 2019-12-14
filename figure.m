@@ -45,7 +45,7 @@ if rand < randThreshold
     end
 end
 
-%% Call builtin plot function
+%% Call builtin figure function
 h = builtin('figure',varargin{:});
 
 %% Set output
